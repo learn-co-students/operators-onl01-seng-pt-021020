@@ -19,17 +19,18 @@ end
 # unsafe?(100)
 # unsafe?(1)
 
-# def not_safe?(speed)
+def not_safe?(speed)
 	
-# 	speed < 40 || speed > 60 ? true : false
-# end
+	speed < 40 || speed > 60 ? true : false
+end
 	
 # # not_safe?(65)
 # # not_safe?(39)
 # # not_safe?(75)
 # # not_safe?(95)
 
-def not_safe?(speed)
-  speed < 40 || speed > 60 ? true : false
-end
+# def not_safe?(speed)
+#   speed < 40 || speed > 60 ? true : false
+# end
+
 
